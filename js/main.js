@@ -117,7 +117,7 @@ const restart = (text) => {
     });
     playerLives = 7;
     playerLivesCount.textContent = playerLives;
-    setTimeout(() => window.alert(text), 100);
+    setTimeout(() => window.alert(text), 500);
 };
 
 cardGenerator();
