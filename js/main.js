@@ -86,7 +86,7 @@ const checkCards = (e) => {
                 setTimeout(() => {
                     defeatSound.play();
                     restart('Я нассу в твои цветы!!');
-                }, 1000);
+                }, 950);
             }
         }
     }
@@ -95,7 +95,7 @@ const checkCards = (e) => {
         setTimeout(() => {
             winSound.play();
             restart('Теперь можешь погладить нам пузико!!');
-        }, 1000);
+        }, 950);
     }
 };
 
